@@ -1,0 +1,400 @@
+body{
+    font-family: 'Ek Mukta', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+.center-box{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    /*border: 1px solid yellow;*/
+}
+
+#menu-icon{
+    display: none;
+}
+
+#menu-icon img{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 2.5%;
+    top: 35px;
+     
+}
+
+/****************
+ ****header*****
+ ****************/
+
+
+header{
+    background: #101010 url("../img/bg.png") center no-repeat;
+    border-top: 5px solid #76c38f;
+    overflow: hidden;
+}
+
+#top{
+    background: url("../img/gina.png") right bottom no-repeat;
+}
+
+#logo{
+    float: left;
+    width: 300px;
+    height: 115px;
+    overflow: hidden;
+}
+
+#logo img{
+    width: 241px;
+    margin-top: 30px;
+}
+
+
+ nav ul{
+    float: right;
+    margin-top: 35px;
+}
+
+nav ul li{
+    float: left;
+    padding: 0;
+    display: inline-block;
+    width: auto;
+    text-align: right;
+    margin-right: 50px;
+}
+
+nav ul li:last-of-type{
+    margin-right: 0;
+}
+
+
+
+nav ul li a:hover{
+    color: #76c38f;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase; 
+}
+
+nav{
+    overflow: hidden;
+}
+
+#top-text{
+    width: 380px;
+    margin-top: 130px;
+    overflow: hidden;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    font-weight: normal;
+    color: #fff;
+}
+
+h2{
+    color: #979797;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    line-height: 24px;
+}
+
+.button{
+    padding-top: 15px;
+    padding-left: 12px;
+    width: 180px;
+    height: 46px;
+    background: #76c38f;
+    border-radius: 10px;
+    margin-bottom: 118px;
+}
+
+.button a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.button:hover{
+    border: 1px solid #76c38f;
+    background: none;
+}
+
+#bottom:hover{
+    border: 1px solid #76c38f;
+    background: #373737;
+}
+
+
+
+/****************
+******main*******
+****************/
+
+main{
+    background: #373737;
+}
+
+#gallery{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+#gallery img{
+    
+    float: left;
+    margin-right: 30px;
+    
+}
+
+#gallery img:nth-of-type(3n){
+    margin-right: 0;
+}
+
+#gallery-text-left,
+#gallery-text-right{
+    background: #fff;
+}
+
+#gallery-text-left{
+    width: 630px;
+    float: left;
+    margin-right: 30px;
+    padding: 32px;
+}
+
+#gallery-text-right{
+    width: 300px;
+    float: left;
+    padding: 32px 15px 34px 27px;
+}
+
+#gallery-text-right .button{
+    margin-bottom: 0;
+}
+
+#gallery-text{
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    color: #2e2e2e; 
+}
+
+p{
+    margin-top: 34px;
+    line-height: 20px;
+}
+
+#list{
+    margin-top: 27px;
+    margin-bottom: 35px;
+}
+
+#list li{
+    padding-top: 23px;
+    line-height: 20px;
+   
+}
+
+#list li:first-of-type{
+    padding-top: 0;
+}
+
+#list li:before { 
+    content: "";
+    background:  #76c38f;
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 2px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+#footer-blog{
+    color: #fff;
+}
+
+
+/****************
+*****footer******
+*****************/
+
+
+#footer-blog{
+    background: #101010;
+    overflow: hidden;
+}
+
+
+#blog,
+#insta,
+#links{
+    width: 300px;
+    float: left;
+}
+
+
+#blog{
+    overflow: hidden;
+    padding-bottom: 47px;
+}
+
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    margin-top: 38px;
+    margin-bottom: 25px;
+}
+
+h5{
+    font-weight: 600;
+    color: #76c38f;
+}
+
+date{
+    font-weight: 14px;
+    color: #979797;
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+#blog p{
+    color: #979797;
+    margin-bottom: 20px;
+    line-height: 21px;
+}
+
+#blog a{
+    color: #76c38f;
+    text-decoration: none;
+}
+
+
+
+
+#insta{
+    margin-right: 30px;
+    margin-left: 30px;
+    overflow: hidden;
+    padding-bottom: 58px;
+}
+
+#insta img{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+#insta img:nth-of-type(3n){
+    margin-right: 0;
+}
+
+#insta img:nth-of-type(6n){
+    margin-right: 0;
+}
+
+
+#links{
+    padding-bottom: 82px;
+    overflow: hidden;
+}
+
+#links ul li{
+    padding-top: 19px;
+}
+
+#links ul li a{
+    font-size: 14px;
+    color: #76c38f;
+    text-decoration: none;
+}
+
+#links ul li:first-of-type{
+    padding-top: 0;
+}
+
+
+/****************
+*****copy******
+*****************/
+
+
+#copy{
+    background: #060606;
+    overflow: hidden;
+    font-size: 14px;
+    color: #979797;
+}
+
+#copy-text{
+    width: 330px;
+    float: left;
+    display: block;
+    padding-top: 17px;
+}
+
+footer nav ul{
+    float: right;
+    display: inline-block;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+footer nav ul li{
+    width: auto;
+    float: left;
+    padding-right: 11px;
+    padding-left: 11px;
+    margin: 0;
+}
+
+footer nav ul li:last-of-type{
+    width: 42px;
+}
+
+footer nav ul li:nth-of-type(2n){
+    border-right: 1px solid #979797;
+    border-left: 1px solid #979797;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    text-transform:capitalize;
+    color: #979797;
+}
+
+
+footer nav ul li:hover{
+    background: none;
+}
+
+footer nav ul li a:hover{
+    color: #fff;
+}

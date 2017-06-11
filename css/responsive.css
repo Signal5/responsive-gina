@@ -1,0 +1,590 @@
+@media only screen and (min-width: 985px) and (max-width: 2700px){
+
+    body{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 984px){
+    .center-box{
+        width: 95%;   
+    }
+    
+    #gallery img{
+        width: 31%;
+    }
+    
+    #gallery-text-left{
+        width: 65.5%;
+        
+    }
+
+    #gallery-text-right{
+        width: 31%;
+        padding-bottom: 55px;
+    }
+    
+    #blog,
+    #insta,
+    #links{
+        width: 31%;
+    }
+    
+    #insta img{
+        width: 29.5%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px){
+    .center-box{
+        width: 95%;   
+    }
+    
+    #gallery img{
+        width: 30.5%;
+    }
+    
+    #logo{
+        display: block;
+        width: 100%;
+        clear: both;
+        text-align: center;
+        float: none;
+        height: auto;
+    }
+    
+  header nav ul{
+        
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    
+   header nav ul li{
+        float: none;
+        padding: 10px;
+        display: inline-block;
+        width: 19.6%;
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    #top-text{
+        width: 49%;
+        margin-top: 90px;
+        overflow: hidden; 
+    }
+    
+    h2{
+        text-shadow: 1px 1px 1px #333;
+    }
+    
+    
+    h1{
+        font-size: 48px;
+    }
+
+
+    #gallery-text-left{
+        width: 100%;
+        float: none;
+    }
+
+    #gallery-text-right{
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    #blog,
+    #insta,
+    #links{
+        width: 30.5%;
+        float: left;
+    }
+    
+    #blog p{
+        margin-bottom: 15px;
+        margin-top: 0px;
+        font-size: 14px;
+    }
+    
+    date{
+        font-size: 14px;
+    }
+    
+    
+    #insta img{
+        width: 28%;
+    }
+    
+    h4{
+        font-size: 16px;
+    }
+    
+    #links ul li{
+        padding-top: 11px;
+    }
+    
+    
+    #copy{
+        font-size: 12px;
+    }
+
+    #copy-text{
+        padding-top: 17px;
+    }
+
+
+    footer nav ul li a{
+        font-size: 12px;
+    }
+    
+    #footer nav ul li{
+        padding-top: 0;
+        padding-bottom: 0;
+    }    
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .center-box{
+        width: 95%;   
+    }
+    
+    #top{
+        background: url("../img/gina.png") center bottom no-repeat;
+    }
+    
+    #logo{
+        display: block;
+        width: 100%;
+        clear: both;
+        text-align: center;
+        float: none;
+        height: auto;
+    }
+    
+    #menu-icon{
+        display: block;
+    }
+
+    header nav ul{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+
+    header nav ul li{
+        float: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-right: 0px;        
+    }
+    
+    #top-text{
+        width: 85%;
+        margin-top: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+    
+
+    h2{
+        text-shadow: 1px 1px 1px #333;
+        text-align: center;
+    }
+
+
+    h1{
+        text-align: center;
+    }
+    
+    h4{
+        text-align: center;
+    }
+    
+    header .button{
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 510px;
+    }
+    
+    #gallery{
+        margin-top: 60px;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    #gallery img{
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-right: 30px;
+
+    }
+
+    #gallery img:nth-of-type(3n){
+        margin-right: 0;
+    }
+    
+    #gallery-text-left{
+        width: 100%;
+        float: none;
+    }
+
+    #gallery-text-right{
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    #blog,
+    #insta,
+    #links{
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+    
+    #blog,
+    #links{
+        padding-left: 30px;
+    }
+    
+    #insta{
+        padding-bottom: 25px;
+    }
+    
+    #insta img{
+        margin: 9px;
+        float: left;
+        width: 29.5%;
+        height: auto;
+    }
+    
+
+    #copy-text{
+        padding-top: 10px;
+        display: block;
+        clear: both;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    footer nav{
+        
+        float: left;
+        width: 100%;
+    }
+
+    footer nav ul{
+        width: 100%;
+        float: none;
+    }
+    
+    footer nav ul li a{
+        font-size: 12px;
+    }
+
+    footer nav ul li{
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 33%;
+        text-align: center;   
+    }
+    
+    footer nav ul li:last-of-type{
+        text-align: center;
+        width: 33%;
+    }  
+}
+
+@media only screen and (min-width: 386px) and (max-width: 439px){
+    .center-box{
+        width: 95%;   
+    }
+    
+    #top{
+        background: url("../img/gina.png") center bottom no-repeat;
+        background-size: 95%;
+    }
+    
+    .button{
+        margin-bottom: 330px;
+    }  
+}
+
+@media only screen and (min-width: 350px) and (max-width: 385px){
+    .center-box{
+        width: 95%;   
+    }
+
+    #top{
+        background: url("../img/gina.png") center bottom no-repeat;
+        background-size: 95%;
+    }
+
+    .button{
+        margin-bottom: 300px;
+    }
+}
+
+@media only screen and (max-width: 349px){
+    .center-box{
+        width: 95%;   
+    }
+
+    #top{
+        background: url("../img/gina.png") center bottom no-repeat;
+        background-size: 95%;
+    }
+
+    .button{
+        margin-bottom: 270px;
+    }
+}
+
+@media only screen and (max-width: 439px){
+    .center-box{
+        width: 95%;   
+    }
+
+    #logo{
+        display: block;
+        width: 100%;
+        clear: both;
+        text-align: center;
+        float: none;
+        height: auto;
+    }
+    
+    #logo img{
+        width: 60%;
+    }
+
+    #menu-icon{
+        display:block;
+        
+    }
+    
+    #menu-icon img{
+        width: 30px;
+        height: 30px;
+        top: 30px;
+    }
+
+    header nav ul{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+
+    header nav ul li{
+        float: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-right: 0px;        
+    }
+
+    #top-text{
+        width: 100%;
+        margin-top: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+
+
+    h2{
+        text-shadow: 1px 1px 1px #333;
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+    h1{
+        text-align: center;
+        font-size: 36px;
+    }
+
+    h4,
+    h5,
+    date{
+        text-align: center;
+    }
+    
+    h3{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .button{
+        margin-right: auto;
+        margin-left: auto;
+        width: 150px;
+        height: 36px;
+        padding-top: 10px;
+        padding-left: 8px;
+    }
+    
+    .button a{
+        font-size: 14px;
+    }
+
+    #gallery{
+        margin-top: 40px;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    #gallery img{
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-right: 30px;
+    }
+
+    #gallery img:nth-of-type(3n){
+        margin-right: 0;
+    }
+    
+    #gallery img:nth-of-type(2n){
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+
+    #gallery-text-left{
+        width: 100%;
+        float: none;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #gallery-text-right{
+        width: 100%;
+        margin-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    
+
+    #blog,
+    #insta,
+    #links{
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+
+    #blog,
+    #links{
+        padding-left: 5px;
+        padding-bottom: 15px;
+    }
+    
+    #links ul li{
+        text-align: center;
+    }
+    
+
+    #insta{
+        padding-bottom: 25px;
+    }
+
+    #insta img{
+        margin: 5px;
+        float: left;
+        width: 31%;
+        height: auto;
+    }
+
+
+    #copy-text{
+        padding-top: 10px;
+        margin-top: 10px;
+        display: block;
+        clear: both;
+        float: none;
+        width: 100%;
+        text-align: center;
+        font-size: 11px;
+    }
+
+    footer nav{
+
+        float: left;
+        width: 100%;
+    }
+
+    footer nav ul{
+        width: 100%;
+        float: none;
+        margin-top: 10px;
+    }
+
+    footer nav ul li a{
+        font-size: 12px;
+    }
+
+    footer nav ul li{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #979797;
+    }
+    
+    footer nav ul li:nth-of-type(2n){
+        border: none;
+        border-bottom: 1px solid #979797; 
+    }
+
+    footer nav ul li:last-of-type{
+        text-align: center;
+        width: 100%;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+}
+
+@media only screen and (max-width: 392px){
+    #insta img{
+        margin: 5px;
+        float: left;
+        width: 47%;
+        height: auto;
+    } 
+    
+    #insta img:nth-of-type(3n){
+        margin-right: 5px;
+    }
+
+    #insta img:nth-of-type(6n){
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 367px){
+    #insta img{
+        margin: 5px;
+        float: left;
+        width: 46%;
+        height: auto;
+    } 
+
+    #insta img:nth-of-type(3n){
+        margin-right: 5px;
+    }
+
+    #insta img:nth-of-type(6n){
+        margin-right: 5px;
+    }
+}
